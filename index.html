@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .section {
+           
+
+            border: 5px solid black;
+            background-color: rgb(135, 173, 193);
+            padding: 10px;
+            margin: o;
+          
+            
+            
+        }
+        .profession {
+            font-weight: bold;
+            font-style: italic;
+        }
+.password {
+    font-weight: bold;
+            font-style: italic;
+}
+
+    </style>
+    <title>Registration form</title>
+</head>
+<body>
+    <div class="section">
+        <h1 class="heading"> Registration Form</h1>
+        <form>
+           <label for="Details">Enter your details below</label>
+           <ul>
+           <li>&nbsp;&nbsp;&nbsp;<input type="email" placeholder="your_email@gmail.com" style="font-weight: bolder"></li>
+            <br>
+            
+            <li>&nbsp;&nbsp;&nbsp;<input type="password" placeholder="Password"></li>
+           </ul>
+           
+           <label for="complex password" class="password">!Type a complex password with 8-20 characters.</label>
+           <ul>
+            <li>&nbsp;&nbsp;&nbsp;<input type="password" placeholder="+20 Phone Number"></li>
+           </ul>
+           <hr>
+           <label for="enter your profession" class="profession" >Enter your profession:</label>
+<ul>
+    <li>&nbsp;&nbsp;
+        <input type="radio" name="profession">Student
+        <input type="radio" name="profession">Teacher
+        <input type="radio" name="profession">Developer
+    </li>
+</ul>
+<label for="stage">Choose the stage if you are (Student)</label>
+<select>
+<option type="dropdown" id="stage">First primary</option>
+<option id="stage">First primary</option>
+<option id="stage">First primary</option>
+</select>
+<hr>
+<ul>
+   <li>&nbsp;&nbsp; <label for="DOB">Enter your Birth date.</label>
+   <input type="Date">
+   </li>
+</ul>
+<hr>
+<ul>
+    <li>&nbsp;&nbsp;
+        <input type="text" placeholder="Any notes">
+    </li>
+</ul>
+<hr>
+<input type="submit" value="Submit">
+<input type="Reset" value="Reset">
+
+        </form>
+
+    </div>
+</body>
+</html>
